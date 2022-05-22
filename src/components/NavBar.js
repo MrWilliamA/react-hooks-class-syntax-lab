@@ -1,12 +1,14 @@
-import React from "react";
+import { default as react, default as React } from "react";
 
-function NavBar() {
-  return (
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-    </nav>
-  );
+class NavBar extends react.Component {
+  render() {
+    return (
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+      </nav>
+    );
+  }
 }
 
 export default NavBar;
